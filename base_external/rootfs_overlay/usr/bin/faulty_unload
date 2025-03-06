@@ -1,0 +1,12 @@
+#!/bin/sh
+module="faulty"
+device="faulty"
+
+echo "Will unload the module specified by ${module} and remove associated device"
+
+# invoke rmmod with all arguments we got
+rmmod $module || exit 1
+
+# Remove stale nodes
+rm -f /dev/${device}
+

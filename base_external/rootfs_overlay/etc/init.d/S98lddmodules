@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Load/unload the scull driver, faulty driver, and hello module
+
+case "$1" in
+    start)
+        echo "Loading LDD modules"
+        /usr/bin/scull_load
+        /usr/bin/faulty_load
+        modprobe hello
+        ;;
+    stop)
+        echo "Unloading LDD modules"
+        /usr/bin/scull_unload
+        /usr/bin/faulty_unload
+        rmmod hello
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0
