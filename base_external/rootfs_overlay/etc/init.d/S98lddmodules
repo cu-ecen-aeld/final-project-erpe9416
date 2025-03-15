@@ -8,12 +8,16 @@ case "$1" in
         /usr/bin/scull_load
         /usr/bin/faulty_load
         modprobe hello
+        echo "Loading aesdchar module"
+        /usr/bin/aesdchar_load
+        
         ;;
     stop)
         echo "Unloading LDD modules"
         /usr/bin/scull_unload
         /usr/bin/faulty_unload
-        rmmod hello
+        modprobe -r hello
+        /usr/bin/aesdchar_unload
         ;;
     *)
         echo "Usage: $0 {start|stop}"

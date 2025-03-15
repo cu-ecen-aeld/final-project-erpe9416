@@ -1,12 +1,11 @@
 #!/bin/sh
-module="faulty"
-device="faulty"
+module="aesdchar"
+device="aesdchar"
 
 echo "Will unload the module specified by ${module} and remove associated device"
 
-# invoke rmmod with all arguments we got
-rmmod $module || exit 1
+/sbin/rmmod $module || exit 1
 
-# Remove stale nodes
+echo "Removing stale device node /dev/${device}"
 rm -f /dev/${device}
 
