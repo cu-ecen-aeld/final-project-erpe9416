@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESD_ASSIGNMENTS_VERSION = '82ed593f0ac701395d57e401d2ffa8c9230e67a8'
+AESD_ASSIGNMENTS_VERSION = '36d4909c51e96ad856fed8d5f440f1e90559c2ee'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -15,7 +15,7 @@ AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
-	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server
+	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server USE_AESD_CHAR_DEVICE=1
 	$(MAKE) -C $(LINUX_DIR) M=$(@D)/aesd-char-driver ARCH=$(KERNEL_ARCH) CROSS_COMPILE=$(TARGET_CROSS) modules
 endef
 
