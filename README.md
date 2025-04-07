@@ -25,25 +25,30 @@ Lastly, I plan to use [simple pushbuttons](https://www.adafruit.com/product/367)
 
 
 # Open Source Projects Used
-TBD: Mention any open source project content you intend to use with the project, beyond the base platform buildroot/yocto packages already used in assignments.
+I intend to use the Buildroot package [X11](https://github.com/buildroot/buildroot/tree/2016.05/package/x11r7) for the display. A GUI framework such as [GTK](https://github.com/buildroot/buildroot/tree/master/package/libgtk3) may also be useful.
+
+To handle audio, [ALSA](https://github.com/alsa-project/alsa-utils) may be useful for talking to the speaker, and [mpg123](https://www.mpg123.de/) for managing mp3 files.
+
+Concerning network connections, I plan to use the [OpenWeather](https://openweathermap.org/appid) API to obtain weather data, which also includes timestamps that may be useful for synchronizing the clock. Otherwise, NTP will serve that purpose. 
 
 # Previously Discussed Content
-TBD: Mention any content covered in previous assignments, lectures, or book sections you plan to use with the project as a basis. For instance, if you plan to use the aesdsocket or aesdchar componets either partially or completely.
+
+I will use the base Buildroot project from previous course content. I don't explicitly intend to use the aesdsocket or aesdchar components developed in class, but it is possible I will find them useful to use partially.
 
 # New Content
-TBD: Mention the new content you plan to cover with your assignment, separating between items we've discussed in class already but not included in previous assignments and items we have not yet discussed in class.
+- Graphical display using X11 and potential GUI framework
+- UAC audio using ALSA
+- NTP and public API access
+- Sysfs GPIO control   
 
 # Shared Material
-TBD: Detail any portion of the project leveraged from other coursework or using [components from previous semesters](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki) by yourself or others.
+I will use the [Raspberry Pi Hardware Hints](https://github.com/cu-ecen-aeld/buildroot-assignments-base/wiki/Raspberry-Pi-Hardware-Hints) section of the class wiki to help with USB configuration and potentially SPI if I use the fallback display plan.
 
 # Source Code Organization
-TBD: Modify the content below:
 
-Buildroot or Yocto Repository will be hosted at [TBD]
+Buildroot Repository will be hosted at [https://github.com/cu-ecen-aeld/final-project-erpe9416]
 
-ApplicationX code will be hosted in in a repository at [TBD]
-
-We request X additional repositories for application Y and Z.
+ApplicationX code will be hosted in in a repository at [https://github.com/cu-ecen-aeld/assignments-3-and-later-erpe9416]
 
 ## Team project members:
 
