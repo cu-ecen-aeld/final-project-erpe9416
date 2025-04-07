@@ -55,4 +55,4 @@ ApplicationX code will be hosted in in a repository at [https://github.com/cu-ec
 Eric Percin
 
 # Schedule Page
-TBD: Include link to shared schedule wiki page below.
+[https://github.com/users/erpe9416/projects/1/views/1]
