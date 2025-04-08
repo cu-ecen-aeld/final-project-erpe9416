@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Use a higher priority to get started before NTP
+
+
+case "$1" in
+    start)
+        echo "S40wifi: Connecting to Wi-Fi..."
+        modprobe brcmfmac
+        wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+        udhcpc -i wlan0
+        export TZ=$(cat /etc/TZ)
+        ;;
+    stop)
+        killall wpa_supplicant
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0
+

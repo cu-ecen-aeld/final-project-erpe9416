@@ -1,0 +1,4 @@
+config BR2_PACKAGE_SMARTCLOCK
+    bool "smartclock (hello‑world demo)"
+    help
+      Installs a tiny program that prints hello
