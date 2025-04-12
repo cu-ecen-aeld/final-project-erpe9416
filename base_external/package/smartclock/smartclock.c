@@ -8,6 +8,17 @@
 #define UNITS "imperial"
 #define API_KEY "05dc7b23e76e5d6b103c03b98b5e1003"
 
+/*
+
+Used packages:
+	dhcpcd                              for configuring network interfaces using DHCP
+	wpa_supplicant                      for handling WPA wifi authentication
+	brcmfmac-sdio-firmware-rpi-wifi     for loading wifi firmware for rpi
+	ntpd                                for syncing internal clock with network
+	curl                                for fetching weather data from OpenWeather
+	
+*/
+
 // Test url: https://api.openweathermap.org/data/2.5/weather?q=Boulder&units=imperial&appid=05dc7b23e76e5d6b103c03b98b5e1003
 
 int clock_is_ready(void) {
