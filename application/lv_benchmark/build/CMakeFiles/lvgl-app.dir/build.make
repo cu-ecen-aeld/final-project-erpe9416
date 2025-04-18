@@ -125,10 +125,24 @@ CMakeFiles/lvgl-app.dir/demo_app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/demo_app.c.s"
 	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/demo_app.c -o CMakeFiles/lvgl-app.dir/demo_app.c.s
 
+CMakeFiles/lvgl-app.dir/img/Cloudy.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Cloudy.c.o: ../img/Cloudy.c
+CMakeFiles/lvgl-app.dir/img/Cloudy.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvgl-app.dir/img/Cloudy.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Cloudy.c.o -MF CMakeFiles/lvgl-app.dir/img/Cloudy.c.o.d -o CMakeFiles/lvgl-app.dir/img/Cloudy.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Cloudy.c
+
+CMakeFiles/lvgl-app.dir/img/Cloudy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Cloudy.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Cloudy.c > CMakeFiles/lvgl-app.dir/img/Cloudy.c.i
+
+CMakeFiles/lvgl-app.dir/img/Cloudy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Cloudy.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Cloudy.c -o CMakeFiles/lvgl-app.dir/img/Cloudy.c.s
+
 CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o: CMakeFiles/lvgl-app.dir/flags.make
 CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o: ../img/PartlyCloudy.c
 CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o"
 	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o -MF CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o.d -o CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/PartlyCloudy.c
 
 CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.i: cmake_force
@@ -139,13 +153,89 @@ CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.s"
 	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/PartlyCloudy.c -o CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.s
 
+CMakeFiles/lvgl-app.dir/img/Sunny.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Sunny.c.o: ../img/Sunny.c
+CMakeFiles/lvgl-app.dir/img/Sunny.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lvgl-app.dir/img/Sunny.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Sunny.c.o -MF CMakeFiles/lvgl-app.dir/img/Sunny.c.o.d -o CMakeFiles/lvgl-app.dir/img/Sunny.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Sunny.c
+
+CMakeFiles/lvgl-app.dir/img/Sunny.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Sunny.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Sunny.c > CMakeFiles/lvgl-app.dir/img/Sunny.c.i
+
+CMakeFiles/lvgl-app.dir/img/Sunny.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Sunny.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Sunny.c -o CMakeFiles/lvgl-app.dir/img/Sunny.c.s
+
+CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o: ../img/Thunderstorm.c
+CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o -MF CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o.d -o CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Thunderstorm.c
+
+CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Thunderstorm.c > CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.i
+
+CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Thunderstorm.c -o CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.s
+
+CMakeFiles/lvgl-app.dir/img/Rain.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Rain.c.o: ../img/Rain.c
+CMakeFiles/lvgl-app.dir/img/Rain.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvgl-app.dir/img/Rain.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Rain.c.o -MF CMakeFiles/lvgl-app.dir/img/Rain.c.o.d -o CMakeFiles/lvgl-app.dir/img/Rain.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Rain.c
+
+CMakeFiles/lvgl-app.dir/img/Rain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Rain.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Rain.c > CMakeFiles/lvgl-app.dir/img/Rain.c.i
+
+CMakeFiles/lvgl-app.dir/img/Rain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Rain.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Rain.c -o CMakeFiles/lvgl-app.dir/img/Rain.c.s
+
+CMakeFiles/lvgl-app.dir/img/Fog.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Fog.c.o: ../img/Fog.c
+CMakeFiles/lvgl-app.dir/img/Fog.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvgl-app.dir/img/Fog.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Fog.c.o -MF CMakeFiles/lvgl-app.dir/img/Fog.c.o.d -o CMakeFiles/lvgl-app.dir/img/Fog.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Fog.c
+
+CMakeFiles/lvgl-app.dir/img/Fog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Fog.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Fog.c > CMakeFiles/lvgl-app.dir/img/Fog.c.i
+
+CMakeFiles/lvgl-app.dir/img/Fog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Fog.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Fog.c -o CMakeFiles/lvgl-app.dir/img/Fog.c.s
+
+CMakeFiles/lvgl-app.dir/img/Snow.c.o: CMakeFiles/lvgl-app.dir/flags.make
+CMakeFiles/lvgl-app.dir/img/Snow.c.o: ../img/Snow.c
+CMakeFiles/lvgl-app.dir/img/Snow.c.o: CMakeFiles/lvgl-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvgl-app.dir/img/Snow.c.o"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl-app.dir/img/Snow.c.o -MF CMakeFiles/lvgl-app.dir/img/Snow.c.o.d -o CMakeFiles/lvgl-app.dir/img/Snow.c.o -c /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Snow.c
+
+CMakeFiles/lvgl-app.dir/img/Snow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl-app.dir/img/Snow.c.i"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Snow.c > CMakeFiles/lvgl-app.dir/img/Snow.c.i
+
+CMakeFiles/lvgl-app.dir/img/Snow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl-app.dir/img/Snow.c.s"
+	/home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Snow.c -o CMakeFiles/lvgl-app.dir/img/Snow.c.s
+
 # Object files for target lvgl-app
 lvgl__app_OBJECTS = \
 "CMakeFiles/lvgl-app.dir/clock.c.o" \
 "CMakeFiles/lvgl-app.dir/main.c.o" \
 "CMakeFiles/lvgl-app.dir/mouse_cursor_icon.c.o" \
 "CMakeFiles/lvgl-app.dir/demo_app.c.o" \
-"CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o"
+"CMakeFiles/lvgl-app.dir/img/Cloudy.c.o" \
+"CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o" \
+"CMakeFiles/lvgl-app.dir/img/Sunny.c.o" \
+"CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o" \
+"CMakeFiles/lvgl-app.dir/img/Rain.c.o" \
+"CMakeFiles/lvgl-app.dir/img/Fog.c.o" \
+"CMakeFiles/lvgl-app.dir/img/Snow.c.o"
 
 # External object files for target lvgl-app
 lvgl__app_EXTERNAL_OBJECTS =
@@ -154,7 +244,13 @@ lvgl__app_EXTERNAL_OBJECTS =
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/main.c.o
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/mouse_cursor_icon.c.o
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/demo_app.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Cloudy.c.o
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Sunny.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Rain.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Fog.c.o
+../bin/lvgl-app: CMakeFiles/lvgl-app.dir/img/Snow.c.o
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/build.make
 ../bin/lvgl-app: lib/liblvgl.a
 ../bin/lvgl-app: lib/liblvgl_examples.a
@@ -162,7 +258,7 @@ lvgl__app_EXTERNAL_OBJECTS =
 ../bin/lvgl-app: lib/liblvgl_thorvg.a
 ../bin/lvgl-app: lib/liblvgl.a
 ../bin/lvgl-app: CMakeFiles/lvgl-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/lvgl-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../bin/lvgl-app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvgl-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

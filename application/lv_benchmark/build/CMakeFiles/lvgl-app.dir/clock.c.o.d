@@ -1,7 +1,6 @@
 CMakeFiles/lvgl-app.dir/clock.c.o: \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/clock.c \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/clock.h \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/lvgl.h \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/lv_version.h \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/src/lv_init.h \
@@ -453,7 +452,6 @@ CMakeFiles/lvgl-app.dir/clock.c.o: \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/src/lv_api_map_v8.h \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/src/lv_api_map_v9_0.h \
  /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/src/lv_api_map_v9_1.h \
- /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/lvgl/lvgl.h \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h \
@@ -465,10 +463,12 @@ CMakeFiles/lvgl-app.dir/clock.c.o: \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn.h \
  /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn-common.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/unistd.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix_opt.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/environments.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/confname.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_posix.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_core.h \
- /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/unistd_ext.h
+ /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/clock.h \
+ /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/WeatherIcons.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdlib.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitflags.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/alloca.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/string.h \
+ /home/hampter/sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h

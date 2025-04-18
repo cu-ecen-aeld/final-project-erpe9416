@@ -86,7 +86,20 @@ elseif (LV_USE_WAYLAND)
 
 else()
     # No specific build steps required for FBDEV
-    add_executable(lvgl-app clock.c main.c mouse_cursor_icon.c demo_app.c img/PartlyCloudy.c)
+    add_executable(lvgl-app
+    clock.c
+    main.c
+    mouse_cursor_icon.c
+    demo_app.c
+    img/Cloudy.c
+    img/PartlyCloudy.c
+    img/Sunny.c
+    img/Thunderstorm.c
+    img/Rain.c
+    img/Fog.c
+    img/Snow.c
+)
+
     target_link_libraries(lvgl-app lvgl lvgl::examples lvgl::demos lvgl::thorvg m pthread)
 
 endif()

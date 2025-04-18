@@ -108,7 +108,7 @@ CMakeFiles/lvgl-app.dir/all: lvgl/CMakeFiles/lvgl_examples.dir/all
 CMakeFiles/lvgl-app.dir/all: lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=46 "Built target lvgl-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=46,47 "Built target lvgl-app"
 .PHONY : CMakeFiles/lvgl-app.dir/all
 
 # Build rule for subdir invocation for target.
@@ -212,12 +212,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/clean:
 lvgl/CMakeFiles/lvgl_examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lvgl_examples"
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles 75
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles 74
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/rule
@@ -238,7 +238,7 @@ lvgl/CMakeFiles/lvgl_examples.dir/clean:
 lvgl/CMakeFiles/lvgl_demos.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63 "Built target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target lvgl_demos"
 .PHONY : lvgl/CMakeFiles/lvgl_demos.dir/all
 
 # Build rule for subdir invocation for target.

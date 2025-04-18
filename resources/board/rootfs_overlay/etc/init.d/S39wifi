@@ -21,7 +21,19 @@ case "$1" in
         ip link set wlan0 up >> $LOG 2>&1
         wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf >> $LOG 2>&1
         udhcpc -i wlan0 >> $LOG 2>&1
-        sleep 5
+        
+        # Wait until wlan0 has an IP address
+        i=0
+        while [ $i -lt 20 ]; do
+            if ip addr show wlan0 | grep -q "inet "; then
+                echo "Got IP address!" >> $LOG
+                break
+            fi
+            echo "Waiting for IP address..." >> $LOG
+            sleep 1
+            i=$((i+1))
+        done
+        
         ntpd -n -q -p pool.ntp.org -g >> $LOG 2>&1
         export TZ=$(cat /etc/TZ)
         echo "Wi-Fi setup complete! $(date)" >> $LOG

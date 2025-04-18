@@ -10,7 +10,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/clock.c" "CMakeFiles/lvgl-app.dir/clock.c.o" "gcc" "CMakeFiles/lvgl-app.dir/clock.c.o.d"
   "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/demo_app.c" "CMakeFiles/lvgl-app.dir/demo_app.c.o" "gcc" "CMakeFiles/lvgl-app.dir/demo_app.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Cloudy.c" "CMakeFiles/lvgl-app.dir/img/Cloudy.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Cloudy.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Fog.c" "CMakeFiles/lvgl-app.dir/img/Fog.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Fog.c.o.d"
   "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/PartlyCloudy.c" "CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Rain.c" "CMakeFiles/lvgl-app.dir/img/Rain.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Rain.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Snow.c" "CMakeFiles/lvgl-app.dir/img/Snow.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Snow.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Sunny.c" "CMakeFiles/lvgl-app.dir/img/Sunny.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Sunny.c.o.d"
+  "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/img/Thunderstorm.c" "CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o" "gcc" "CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o.d"
   "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/main.c" "CMakeFiles/lvgl-app.dir/main.c.o" "gcc" "CMakeFiles/lvgl-app.dir/main.c.o.d"
   "/home/hampter/Desktop/assignment1/lvgl/lv_buildroot/application/lv_benchmark/mouse_cursor_icon.c" "CMakeFiles/lvgl-app.dir/mouse_cursor_icon.c.o" "gcc" "CMakeFiles/lvgl-app.dir/mouse_cursor_icon.c.o.d"
   )

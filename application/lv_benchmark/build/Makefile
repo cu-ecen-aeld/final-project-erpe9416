@@ -287,6 +287,54 @@ demo_app.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/demo_app.c.s
 .PHONY : demo_app.c.s
 
+img/Cloudy.o: img/Cloudy.c.o
+.PHONY : img/Cloudy.o
+
+# target to build an object file
+img/Cloudy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Cloudy.c.o
+.PHONY : img/Cloudy.c.o
+
+img/Cloudy.i: img/Cloudy.c.i
+.PHONY : img/Cloudy.i
+
+# target to preprocess a source file
+img/Cloudy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Cloudy.c.i
+.PHONY : img/Cloudy.c.i
+
+img/Cloudy.s: img/Cloudy.c.s
+.PHONY : img/Cloudy.s
+
+# target to generate assembly for a file
+img/Cloudy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Cloudy.c.s
+.PHONY : img/Cloudy.c.s
+
+img/Fog.o: img/Fog.c.o
+.PHONY : img/Fog.o
+
+# target to build an object file
+img/Fog.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Fog.c.o
+.PHONY : img/Fog.c.o
+
+img/Fog.i: img/Fog.c.i
+.PHONY : img/Fog.i
+
+# target to preprocess a source file
+img/Fog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Fog.c.i
+.PHONY : img/Fog.c.i
+
+img/Fog.s: img/Fog.c.s
+.PHONY : img/Fog.s
+
+# target to generate assembly for a file
+img/Fog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Fog.c.s
+.PHONY : img/Fog.c.s
+
 img/PartlyCloudy.o: img/PartlyCloudy.c.o
 .PHONY : img/PartlyCloudy.o
 
@@ -310,6 +358,102 @@ img/PartlyCloudy.s: img/PartlyCloudy.c.s
 img/PartlyCloudy.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/PartlyCloudy.c.s
 .PHONY : img/PartlyCloudy.c.s
+
+img/Rain.o: img/Rain.c.o
+.PHONY : img/Rain.o
+
+# target to build an object file
+img/Rain.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Rain.c.o
+.PHONY : img/Rain.c.o
+
+img/Rain.i: img/Rain.c.i
+.PHONY : img/Rain.i
+
+# target to preprocess a source file
+img/Rain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Rain.c.i
+.PHONY : img/Rain.c.i
+
+img/Rain.s: img/Rain.c.s
+.PHONY : img/Rain.s
+
+# target to generate assembly for a file
+img/Rain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Rain.c.s
+.PHONY : img/Rain.c.s
+
+img/Snow.o: img/Snow.c.o
+.PHONY : img/Snow.o
+
+# target to build an object file
+img/Snow.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Snow.c.o
+.PHONY : img/Snow.c.o
+
+img/Snow.i: img/Snow.c.i
+.PHONY : img/Snow.i
+
+# target to preprocess a source file
+img/Snow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Snow.c.i
+.PHONY : img/Snow.c.i
+
+img/Snow.s: img/Snow.c.s
+.PHONY : img/Snow.s
+
+# target to generate assembly for a file
+img/Snow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Snow.c.s
+.PHONY : img/Snow.c.s
+
+img/Sunny.o: img/Sunny.c.o
+.PHONY : img/Sunny.o
+
+# target to build an object file
+img/Sunny.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Sunny.c.o
+.PHONY : img/Sunny.c.o
+
+img/Sunny.i: img/Sunny.c.i
+.PHONY : img/Sunny.i
+
+# target to preprocess a source file
+img/Sunny.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Sunny.c.i
+.PHONY : img/Sunny.c.i
+
+img/Sunny.s: img/Sunny.c.s
+.PHONY : img/Sunny.s
+
+# target to generate assembly for a file
+img/Sunny.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Sunny.c.s
+.PHONY : img/Sunny.c.s
+
+img/Thunderstorm.o: img/Thunderstorm.c.o
+.PHONY : img/Thunderstorm.o
+
+# target to build an object file
+img/Thunderstorm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.o
+.PHONY : img/Thunderstorm.c.o
+
+img/Thunderstorm.i: img/Thunderstorm.c.i
+.PHONY : img/Thunderstorm.i
+
+# target to preprocess a source file
+img/Thunderstorm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.i
+.PHONY : img/Thunderstorm.c.i
+
+img/Thunderstorm.s: img/Thunderstorm.c.s
+.PHONY : img/Thunderstorm.s
+
+# target to generate assembly for a file
+img/Thunderstorm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl-app.dir/build.make CMakeFiles/lvgl-app.dir/img/Thunderstorm.c.s
+.PHONY : img/Thunderstorm.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -383,9 +527,27 @@ help:
 	@echo "... demo_app.o"
 	@echo "... demo_app.i"
 	@echo "... demo_app.s"
+	@echo "... img/Cloudy.o"
+	@echo "... img/Cloudy.i"
+	@echo "... img/Cloudy.s"
+	@echo "... img/Fog.o"
+	@echo "... img/Fog.i"
+	@echo "... img/Fog.s"
 	@echo "... img/PartlyCloudy.o"
 	@echo "... img/PartlyCloudy.i"
 	@echo "... img/PartlyCloudy.s"
+	@echo "... img/Rain.o"
+	@echo "... img/Rain.i"
+	@echo "... img/Rain.s"
+	@echo "... img/Snow.o"
+	@echo "... img/Snow.i"
+	@echo "... img/Snow.s"
+	@echo "... img/Sunny.o"
+	@echo "... img/Sunny.i"
+	@echo "... img/Sunny.s"
+	@echo "... img/Thunderstorm.o"
+	@echo "... img/Thunderstorm.i"
+	@echo "... img/Thunderstorm.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
