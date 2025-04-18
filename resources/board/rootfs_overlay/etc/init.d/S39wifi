@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Use a higher priority to get started before NTP
+
+LOG=/var/log/wifi-init.log
+
+case "$1" in
+    start)
+        echo "S39wifi: Connecting to Wi-Fi..." >> $LOG
+        xz -d /lib/modules/$(uname -r)/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko.xz >> $LOG 2>&1
+        modprobe /lib/modules/$(uname -r)/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko >> $LOG 2>&1
+        
+        # Sleep until wlan0 is up
+        i=0
+        while [ ! -d /sys/class/net/wlan0 ] && [ $i -lt 20 ]; do
+            echo "Waiting for wlan0..." >> $LOG
+            sleep 0.5
+            i=$((i+1))
+        done
+
+        ip link set wlan0 up >> $LOG 2>&1
+        wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf >> $LOG 2>&1
+        udhcpc -i wlan0 >> $LOG 2>&1
+        sleep 5
+        ntpd -n -q -p pool.ntp.org -g >> $LOG 2>&1
+        export TZ=$(cat /etc/TZ)
+        echo "Wi-Fi setup complete! $(date)" >> $LOG
+        ;;
+    stop)
+        killall wpa_supplicant
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0
+
