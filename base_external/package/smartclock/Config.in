@@ -1,4 +1,4 @@
 config BR2_PACKAGE_SMARTCLOCK
-    bool "smartclock (hello‑world demo)"
+    bool "smartclock LVGL program"
     help
-      Installs a tiny program that prints hello
+      Installs the LVGL smart clock program
