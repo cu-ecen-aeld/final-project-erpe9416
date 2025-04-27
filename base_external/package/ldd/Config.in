@@ -1,5 +1,0 @@
-config BR2_PACKAGE_LDD
-    bool "ldd kernel modules"
-    help
-      For the misc-modules and scull components
-
